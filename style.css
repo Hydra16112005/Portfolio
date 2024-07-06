@@ -1,0 +1,98 @@
+#name{
+    font-size: 5vw;
+    font-family: 'geostar fill', cursive;
+    color: #6fc27c; 
+    text-align: center;
+}
+#home{
+    float: right;
+    margin-right: 1.5vw;
+    text-decoration: none;
+    font-size: 1.5vw;
+    font-family: 'poppins', cursive;
+    color:#6fc27c;
+    transition : 1s;
+}
+#contact{
+    float: right;
+    margin-right: 0px;
+    text-decoration: none;
+    font-size: 1.5vw;
+    font-family: 'poppins', cursive;
+    color: #6fc27c;
+    transition : 1s;
+}
+#about{
+    float: right;
+    margin-right: 1.5vw;
+    text-decoration: none;
+    font-size: 1.5vw;
+    font-family: 'poppins', cursive;
+    color: #6fc27c;
+    transition : 1s;
+}
+#education{
+    float: right;
+    margin-right:   1.5vw;
+    text-decoration: none;
+    font-size: 1.5vw;
+    font-family: 'poppins', cursive;
+    color: #6fc27c;
+    transition : .5s;
+}
+body{
+    background-color: #0f4d19;
+    background-size: cover;
+}
+.content{
+    margin-left: 10vw;
+}
+.fd{
+    color: #04D9FF;
+    font-size: 3.5vw;
+    font-family:'Courier New', Courier, monospace;
+    text-shadow:0px 0px 10px #88deff;
+}
+.para{
+    font-size: 1.5vw;
+    color: #6fc27c;
+    font-family: cursive;
+}
+.is{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.is:hover{
+    color:saddlebrown;
+}
+#links{
+    position: relative;
+    bottom: 0;
+    left: 45%;
+}
+#insta{
+    margin-left: 1%;
+}
+#ld{
+    margin-right: 1%;
+}
+#git{
+    margin-left: 1%;
+}
+/* hover animations */
+#home:hover{
+    text-shadow:0px 0px 10px #88deff;
+    font-size: 3vw;
+}
+#about:hover{
+    text-shadow:0px 0px 10px #88deff;
+    font-size: 3vw;
+}
+#education:hover{
+    text-shadow:0px 0px 10px #88deff;
+    font-size: 3vw;
+}
+#contact:hover{
+    text-shadow:0px 0px 10px #88deff;
+    font-size: 3vw;
+}
